@@ -1,0 +1,219 @@
+('C:\\Users\\Prafulla '
+ 'Gavalkar\\Desktop\\S++\\build\\install_iridium\\install_iridium.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\build\\install_iridium\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\build\\install_iridium\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\build\\install_iridium\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\build\\install_iridium\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\build\\install_iridium\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\build\\install_iridium\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('install_iridium',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\install_iridium.py',
+   'PYSOURCE'),
+  ('s_+_+.exe',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\s_+_+.exe',
+   'BINARY'),
+  ('python313.dll',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\python313.dll',
+   'BINARY'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('HOW_TO_WRITE_IRIDIUM.txt',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\HOW_TO_WRITE_IRIDIUM.txt',
+   'DATA'),
+  ('examples\\ask_types.irdx',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\examples\\ask_types.irdx',
+   'DATA'),
+  ('examples\\basic.irdx',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\examples\\basic.irdx',
+   'DATA'),
+  ('examples\\new_syntax.irdx',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\examples\\new_syntax.irdx',
+   'DATA'),
+  ('final_logo.ico',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\final_logo.ico',
+   'DATA'),
+  ('iridium_editor.bat',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\iridium_editor.bat',
+   'DATA'),
+  ('iridium_editor.py',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\iridium_editor.py',
+   'DATA'),
+  ('iridium_editor_settings.json',
+   'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\iridium_editor_settings.json',
+   'DATA'),
+  ('s_+_+.py', 'C:\\Users\\Prafulla Gavalkar\\Desktop\\S++\\s_+_+.py', 'DATA'),
+  ('vscode-spp-extension\\README.md',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\README.md',
+   'DATA'),
+  ('vscode-spp-extension\\extension.js',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\extension.js',
+   'DATA'),
+  ('vscode-spp-extension\\fileicons\\iridium-icon-theme.json',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\fileicons\\iridium-icon-theme.json',
+   'DATA'),
+  ('vscode-spp-extension\\fileicons\\spp-icon-theme.json',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\fileicons\\spp-icon-theme.json',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\Iridium.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\Iridium.svg',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\banner.png',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\banner.png',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\editor_logo.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\editor_logo.svg',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\file.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\file.svg',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\final_logo.png',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\final_logo.png',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\folder-open.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\folder-open.svg',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\folder.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\folder.svg',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\irdium.png',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\irdium.png',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\iridium-file.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\iridium-file.svg',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\iridium-icon.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\iridium-icon.svg',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\iridium.png',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\iridium.png',
+   'DATA'),
+  ('vscode-spp-extension\\icons\\spp-file.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\icons\\spp-file.svg',
+   'DATA'),
+  ('vscode-spp-extension\\language-configuration.json',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\language-configuration.json',
+   'DATA'),
+  ('vscode-spp-extension\\package.json',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\package.json',
+   'DATA'),
+  ('vscode-spp-extension\\proper_logo.svg',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\proper_logo.svg',
+   'DATA'),
+  ('vscode-spp-extension\\syntaxes\\iridium.tmLanguage.json',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\syntaxes\\iridium.tmLanguage.json',
+   'DATA'),
+  ('vscode-spp-extension\\syntaxes\\spp.tmLanguage.json',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\vscode-spp-extension\\syntaxes\\spp.tmLanguage.json',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\Prafulla '
+   'Gavalkar\\Desktop\\S++\\build\\install_iridium\\base_library.zip',
+   'DATA')],
+ 'python313.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

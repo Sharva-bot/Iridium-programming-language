@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run current S++ file",
+      "type": "shell",
+      "command": "\"${workspaceFolder}\\s_+_+.exe\" \"${file}\"",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,549 @@
+# Iridium Guide
+
+Welcome to Iridium. This guide teaches the language from the beginning, step by step.
+
+Iridium source files use the `.irdx` extension.
+
+## 📥 Installation & Setup
+
+To get the full Iridium experience (Syntax highlighting, Run buttons, and Desktop shortcut), follow these simple steps:
+
+### 1. The Easy Way (Automated)
+If you are on Windows, simply double-click **`install_extension.bat`** in this folder. It will:
+*   Install the **Iridium VS Code Extension**.
+*   Create a **Desktop Shortcut** for the Iridium Editor.
+*   Setup everything you need to start coding.
+
+### 2. Manual Setup for VS Code
+If you prefer to set up the editor manually:
+1.  Open **VS Code**.
+2.  Press `Ctrl + Shift + P` and type **"Install from VSIX..."** (if you have the package) or simply copy the `vscode-spp-extension` folder to `%USERPROFILE%\.vscode\extensions`.
+3.  **Restart VS Code**.
+4.  You will now see **Syntax Highlighting** and a **"Run Iridium"** button in the status bar (bottom right).
+
+### 3. Sharing it with Friends
+If you want to give Iridium to someone else:
+1.  **ZIP** this entire folder.
+2.  Send them the ZIP file.
+3.  Tell them to extract it and run **`install_extension.bat`**.
+
+---
+
+## 1. Your First Program
+
+Create a file called `hello.irdx` and write:
+
+```txt
+Say("Hello, world!")
+```
+
+Run it with:
+
+```powershell
+.\s_+_+.exe .\hello.irdx
+```
+
+You can also run it with:
+
+```powershell
+.\run_irdx.bat .\hello.irdx
+```
+
+If everything is working, you will see:
+
+```txt
+Hello, world!
+```
+
+## 2. Printing Things With `Say`
+
+`Say(...)` prints text, numbers, and variables.
+
+```txt
+Say("Hi")
+Say(123)
+Say("Score =", 10)
+```
+
+You can give `Say` more than one value, separated by commas.
+
+## 3. Storing Values In Variables
+
+Use `=` to store a value in a variable.
+
+```txt
+name = "Prafulla"
+age = 15
+Say("Name =", name)
+Say("Age =", age)
+```
+
+You can also use `let`, but it is optional:
+
+```txt
+let points = 50
+Say(points)
+```
+
+Important:
+- Variable names are case-insensitive.
+- `name`, `Name`, and `NAME` all refer to the same variable.
+
+## 4. Doing Math
+
+Iridium supports normal math:
+
+```txt
+x = 10
+y = 3
+
+Say(x + y)
+Say(x - y)
+Say(x * y)
+Say(x / y)
+```
+
+You can also use unary minus:
+
+```txt
+temperature = -5
+Say(temperature)
+```
+
+## 5. Asking The User For Input
+
+Use `Ask(...)` to get text from the user.
+
+```txt
+name = Ask("What is your name? ")
+Say("Hello,", name)
+```
+
+`Ask(...)` gives text, so if you want a number, convert it:
+
+```txt
+age = integer(Ask("Enter your age: "))
+height = float(Ask("Enter your height: "))
+Say("Age =", age)
+Say("Height =", height)
+```
+
+Built-in conversion helpers:
+- `integer(...)`
+- `interger(...)`
+- `float(...)`
+- `string(...)`
+- `nospecialchars(...)`
+- `onlyspecialchars(...)`
+
+Example:
+
+```txt
+name = nospecialchars(Ask("Enter your name: "))
+age = integer(Ask("Enter your age: "))
+Say("Name =", name, "Age =", age)
+```
+
+## 6. Making Decisions With `if`
+
+Use `if` when you want code to run only when something is true.
+
+```txt
+age = integer(Ask("Enter age: "))
+
+if age >= 18
+    Say("You are an adult.")
+end
+```
+
+You can also use `or if` and `else`:
+
+```txt
+score = integer(Ask("Enter score: "))
+
+if score >= 90
+    Say("Grade A")
+or if score >= 75
+    Say("Grade B")
+or if score >= 50
+    Say("Grade C")
+else
+    Say("Need more practice")
+end
+```
+
+Comparison operators:
+- `==` equal to
+- `!=` not equal to
+- `>` greater than
+- `<` less than
+- `>=` greater than or equal to
+- `<=` less than or equal to
+
+Important:
+- Use `=` for assignment.
+- Use `==` for comparison.
+
+Correct:
+
+```txt
+name = "Iridium"
+if name == "Iridium"
+    Say("Correct")
+end
+```
+
+## 7. Repeating Code With Loops
+
+### Repeat a fixed number of times
+
+```txt
+repeat 3
+    Say("Hello")
+end
+```
+
+### Repeat until something becomes true
+
+```txt
+count = 0
+
+repeat until count == 5
+    Say("Count =", count)
+    count = count + 1
+end
+```
+
+## 8. Constants With `Remember`
+
+Use `Remember` for values that should not change.
+
+```txt
+Remember pi = 3.14
+Say(pi)
+```
+
+If you try to change it later, Iridium will give an error.
+
+## 9. Comments
+
+Comments start with `//`.
+
+```txt
+// This is a comment
+Say("Hello")
+```
+
+Anything after `//` on that line is ignored.
+
+## 10. Strings And Escapes
+
+Strings go inside double quotes:
+
+```txt
+Say("Iridium")
+```
+
+Escapes are supported:
+
+```txt
+Say("Line 1\nLine 2")
+Say("Tab:\tDone")
+Say("Quote: \"Hello\"")
+Say("Backslash: \\")
+```
+
+## 11. Arrays
+
+Arrays let you store many values in one variable.
+
+Create an array with square brackets:
+
+```txt
+numbers = [10, 20, 30]
+names = ["Ana", "Ben", "Caro"]
+mixed = [1, "hello", true]
+```
+
+You can print the whole array:
+
+```txt
+Say(numbers)
+```
+
+Get one item with an index:
+
+```txt
+numbers = [10, 20, 30]
+Say(numbers[0])
+Say(numbers[1])
+Say(numbers[2])
+```
+
+Important:
+- Arrays start at index `0`.
+- So the first item is `array[0]`, not `array[1]`.
+
+You can change one item:
+
+```txt
+numbers = [10, 20, 30]
+numbers[1] = 99
+Say(numbers)
+```
+
+You can also use arrays inside arrays:
+
+```txt
+grid = [[1, 2], [3, 4]]
+Say(grid[0])
+Say(grid[1][0])
+```
+
+Useful array built-ins:
+- `length(array)` or `len(array)` gives the size
+- `push(array, value)` adds an item to the end
+- `pop(array)` removes and returns the last item
+- `pop(array, index)` removes and returns the item at a specific position
+
+Example:
+
+```txt
+scores = [50, 75]
+push(scores, 90)
+Say(length(scores))
+Say(scores)
+
+last = pop(scores)
+Say("Removed =", last)
+Say(scores)
+```
+
+Arrays also work nicely with loops:
+
+```txt
+items = ["red", "green", "blue"]
+i = 0
+
+repeat until i == length(items)
+    Say(items[i])
+    i = i + 1
+end
+```
+
+## 12. Drawing Windows
+
+Iridium can create simple windows.
+
+Example:
+
+```txt
+win = Window("Window 1", width=300px, height=200px, fill="#2a2a2a")
+Open(win)
+```
+
+You can also open by title:
+
+```txt
+Open("Window 1")
+Open(Window 1)
+```
+
+Notes:
+- `width` and `height` can use the `px` suffix (e.g. `width=300px`). They are parsed directly as numbers, so no quotes are needed.
+- `fill` accepts a hex color like `"#ff6600"` or `"ff6600"`.
+- Window names are case-insensitive when opening by title.
+
+## 13. Case Sensitivity Rules
+
+Iridium is designed to be case-insensitive.
+
+These all work:
+
+```txt
+say("hello")
+Say("hello")
+SAY("hello")
+```
+
+The same is true for variable names:
+
+```txt
+PlayerName = "A"
+Say(playername)
+```
+
+## 14. A Full Beginner Example
+
+```txt
+Say("Welcome to Iridium")
+
+name = string(Ask("What is your name? "))
+age = integer(Ask("How old are you? "))
+
+if age >= 18
+    Say("Hello", name, "- you are an adult.")
+else
+    Say("Hello", name, "- you are not an adult yet.")
+end
+
+repeat 3
+    Say("Nice to meet you,", name)
+end
+```
+
+## 15. Running Iridium Programs
+
+### Option 1: Run the EXE
+
+```powershell
+.\s_+_+.exe .\my_program.irdx
+```
+
+### Option 2: Use the helper script
+
+```powershell
+.\run_irdx.bat .\my_program.irdx
+```
+
+### Option 3: Use the Iridium Editor
+
+Open:
+
+```powershell
+.\iridium_editor.bat
+```
+
+Then:
+1. Write code
+2. Save the file
+3. Click `Run`
+4. Look at the output panel at the bottom
+
+## 16. Do You Need Python Installed?
+
+Short answer:
+- To run Iridium programs: `No`, not if you use `s_+_+.exe`.
+- To use the Python editor: `Yes`.
+
+More clearly:
+- `s_+_+.exe` can run `.irdx` files without Python installed.
+- `run_irdx.bat` now uses `s_+_+.exe` first, so it also works without Python as long as the EXE is in this folder.
+- `iridium_editor.py` needs Python.
+- `iridium_editor.bat` and `iridium_editor.vbs` fall back to Notepad if Python is not installed.
+
+So:
+- If you only want to run Iridium code, you do not need Python.
+- If you want the full custom Iridium editor, you do need Python.
+
+## 17. Common Mistakes
+
+### Mistake: using `=` inside `if`
+
+Wrong:
+
+```txt
+if x = 5
+    Say("Hi")
+end
+```
+
+Right:
+
+```txt
+if x == 5
+    Say("Hi")
+end
+```
+
+### Mistake: forgetting `end`
+
+Wrong:
+
+```txt
+if x > 0
+    Say("Positive")
+```
+
+Right:
+
+```txt
+if x > 0
+    Say("Positive")
+end
+```
+
+### Mistake: trying to change a `Remember` value
+
+Wrong:
+
+```txt
+Remember name = "Iridium"
+name = "Other"
+```
+
+### Mistake: using an array index that does not exist
+
+Wrong:
+
+```txt
+numbers = [10, 20]
+Say(numbers[5])
+```
+
+Right:
+
+```txt
+numbers = [10, 20]
+Say(numbers[1])
+```
+
+## 18. Quick Reference
+
+Statements:
+- `Say(...)`
+- `name = expression`
+- `let name = expression`
+- `Remember name = expression`
+- `if ... or if ... else ... end`
+- `repeat number ... end`
+- `repeat until condition ... end`
+
+Useful built-ins:
+- `Ask(...)`
+- `integer(...)`
+- `interger(...)`
+- `float(...)`
+- `string(...)`
+- `length(...)`
+- `len(...)`
+- `push(...)`
+- `pop(...)`
+- `nospecialchars(...)`
+- `onlyspecialchars(...)`
+- `Window(...)`
+- `Open(...)`
+
+Operators:
+- `+`
+- `-`
+- `*`
+- `/`
+- `!`
+- `==`
+- `!=`
+- `>`
+- `<`
+- `>=`
+- `<=`
+- `[ ]`
+
+## 19. Where To Go Next
+
+Good next projects:
+1. A calculator
+2. A quiz game
+3. A guessing game
+4. A program that asks for your name and opens a window
+
+Start small, test often, and build one feature at a time.

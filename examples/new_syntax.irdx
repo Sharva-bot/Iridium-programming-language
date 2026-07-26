@@ -1,0 +1,11 @@
+// Case-insensitive keywords and no indentation requirement
+x = 10
+Y = 5
+
+IF x >= y
+Sa("x is", x, "and y is", y)
+end
+
+if x != y
+Say("not equal")
+end

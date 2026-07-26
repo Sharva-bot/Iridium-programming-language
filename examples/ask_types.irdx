@@ -1,0 +1,3 @@
+name = nospecialchars(Ask("Name: "))
+age = integer(Ask("Age: "))
+Say("Hello", name, "age", age)

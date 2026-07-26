@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2481 3508" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.926612,0,0,0.55,18.650595,90.243887)">
+        <path d="M1972.591,200.542L1972.591,1309.202C1972.591,1433.626 1912.721,1534.492 1838.868,1534.492L254.136,1534.492C180.283,1534.492 120.413,1433.626 120.413,1309.202L120.413,200.542C120.413,76.118 180.283,-24.747 254.136,-24.747L1838.868,-24.747C1912.721,-24.747 1972.591,76.118 1972.591,200.542Z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,167.929429,-466.360495)">
+        <rect x="299.787" y="1198.336" width="1226.048" height="52.172" style="fill:white;"/>
+    </g>
+    <g transform="matrix(0,1.001991,-1.802721,0,1166.828818,27.607589)">
+        <path d="M496.852,277.038L692.498,476.76C699.949,484.366 696.655,493.84 684.642,499.355C672.63,504.87 655.27,504.879 643.239,499.377L475.982,422.876L292.211,499.855C279.977,504.979 262.969,504.668 251.369,499.106C239.769,493.544 236.719,484.238 244.044,476.76L439.69,277.038C445.389,271.22 456.353,267.6 468.271,267.6C480.189,267.6 491.153,271.22 496.852,277.038Z" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-100.540261,226.313586)">
+        <text x="889.985px" y="422.274px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:50px;">.</text>
+        <text x="903.877px" y="422.274px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:300px;fill:white;">.</text>
+        <g transform="matrix(400,0,0,400,1729.414201,422.274034)">
+        </g>
+        <text x="997.774px" y="422.274px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:400px;fill:white;">ir<tspan x="1271.016px 1521.016px " y="422.274px 422.274px ">dx</tspan></text>
+    </g>
+</svg>
